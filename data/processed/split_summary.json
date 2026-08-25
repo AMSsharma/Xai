@@ -1,0 +1,14 @@
+{
+  "train": {
+    "patients": 536,
+    "images": 954
+  },
+  "val": {
+    "patients": 115,
+    "images": 227
+  },
+  "test": {
+    "patients": 115,
+    "images": 190
+  }
+}

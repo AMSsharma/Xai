@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "total_records": 1385,
+    "valid_records": 1385,
+    "corrupted_images_count": 0,
+    "duplicate_files_count": 14,
+    "dimension_anomalies_count": 0,
+    "statistical_anomalies_count": 0,
+    "missing_labels_count": 0,
+    "conflicting_patients_count": 0,
+    "anomalous_vitals_count": 0
+  },
+  "details": {
+    "corrupted_images": [],
+    "duplicate_images_pairs": [
+      [
+        "00111_NORMAL2-IM-0096-0001.jpeg",
+        [
+          "00110_NORMAL2-IM-0095-0001.jpeg",
+          "00111_NORMAL2-IM-0096-0001.jpeg"
+        ]
+      ],
+      [
+        "00134_NORMAL2-IM-0173-0001-0002.jpeg",
+        [
+          "00133_NORMAL2-IM-0173-0001-0001.jpeg",
+          "00134_NORMAL2-IM-0173-0001-0002.jpeg"
+        ]
+      ],
+      [
+        "00155_NORMAL2-IM-0246-0001-0002.jpeg",
+        [
+          "00154_NORMAL2-IM-0246-0001-0001.jpeg",
+          "00155_NORMAL2-IM-0246-0001-0002.jpeg"
+        ]
+      ],
+      [
+        "00336_person128_bacteria_607.jpeg",
+        [
+          "00335_person128_bacteria_606.jpeg",
+          "00336_person128_bacteria_607.jpeg"
+        ]
+      ],
+      [
+        "00354_person134_bacteria_644.jpeg",
+        [
+          "00353_person134_bacteria_643.jpeg",
+          "00354_person134_bacteria_644.jpeg"
+        ]
+      ],
+      [
+        "00468_person1661_virus_2873.jpeg",
+        [
+          "00467_person1661_virus_2872.jpeg",
+          "00468_person1661_virus_2873.jpeg"
+        ]
+      ],
+      [
+        "00783_person1159_virus_1945.jpeg",
+        [
+          "00782_person1159_virus_1944.jpeg",
+          "00783_person1159_virus_1945.jpeg"
+        ]
+      ],
+      [
+        "00972_person124_virus_247.jpeg",
+        [
+          "00971_person124_virus_246.jpeg",
+          "00972_person124_virus_247.jpeg"
+        ]
+      ],
+      [
+        "00996_person1261_virus_2148.jpeg",
+        [
+          "00995_person1261_virus_2147.jpeg",
+          "00996_person1261_virus_2148.jpeg"
+        ]
+      ],
+      [
+        "01111_person1312_bacteria_3318.jpeg",
+        [
+          "01110_person1312_bacteria_3317.jpeg",
+          "01111_person1312_bacteria_3318.jpeg"
+        ]
+      ],
+      [
+        "01193_person1343_bacteria_3414.jpeg",
+        [
+          "01192_person1343_bacteria_3413.jpeg",
+          "01193_person1343_bacteria_3414.jpeg"
+        ]
+      ],
+      [
+        "01218_person1349_bacteria_3437.jpeg",
+        [
+          "01217_person1349_bacteria_3436.jpeg",
+          "01218_person1349_bacteria_3437.jpeg"
+        ]
+      ],
+      [
+        "01268_person1372_bacteria_3502.jpeg",
+        [
+          "01267_person1372_bacteria_3501.jpeg",
+          "01268_person1372_bacteria_3502.jpeg",
+          "01269_person1372_bacteria_3503.jpeg"
+        ]
+      ],
+      [
+        "01269_person1372_bacteria_3503.jpeg",
+        [
+          "01267_person1372_bacteria_3501.jpeg",
+          "01268_person1372_bacteria_3502.jpeg",
+          "01269_person1372_bacteria_3503.jpeg"
+        ]
+      ]
+    ],
+    "dimension_anomalies": [],
+    "statistical_anomalies": [],
+    "missing_metadata_columns": {
+      "age": 0,
+      "gender": 0,
+      "temperature": 0,
+      "spo2": 0,
+      "heart_rate": 0,
+      "cough_severity": 0
+    },
+    "conflicting_patients": [],
+    "anomalous_vitals": []
+  }
+}

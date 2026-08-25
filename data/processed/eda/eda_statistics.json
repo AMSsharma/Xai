@@ -1,0 +1,150 @@
+{
+  "descriptive_statistics": {
+    "age": {
+      "normal": {
+        "mean": 3.045142857142858,
+        "std": 1.130693438509458,
+        "median": 3.1
+      },
+      "pneumonia": {
+        "mean": 3.087676508344031,
+        "std": 1.1347976357654916,
+        "median": 3.1
+      }
+    },
+    "temperature": {
+      "normal": {
+        "mean": 36.761714285714284,
+        "std": 0.26406945396785947,
+        "median": 36.8
+      },
+      "pneumonia": {
+        "mean": 38.582028241335045,
+        "std": 0.6897229384682061,
+        "median": 38.6
+      }
+    },
+    "spo2": {
+      "normal": {
+        "mean": 98.53714285714285,
+        "std": 0.8493018479314853,
+        "median": 98.0
+      },
+      "pneumonia": {
+        "mean": 90.801026957638,
+        "std": 3.561822556061178,
+        "median": 91.0
+      }
+    },
+    "heart_rate": {
+      "normal": {
+        "mean": 95.09142857142857,
+        "std": 8.587125200660735,
+        "median": 96.0
+      },
+      "pneumonia": {
+        "mean": 130.0,
+        "std": 13.580191229520084,
+        "median": 131.0
+      }
+    },
+    "brightness": {
+      "normal": {
+        "mean": 124.33952770019954,
+        "std": 16.79490886164756,
+        "median": 124.59910124677934
+      },
+      "pneumonia": {
+        "mean": 125.92511047283546,
+        "std": 19.590476288471816,
+        "median": 125.4924025588088
+      }
+    },
+    "contrast": {
+      "normal": {
+        "mean": 60.18344340916567,
+        "std": 6.910099099053646,
+        "median": 60.6444640510775
+      },
+      "pneumonia": {
+        "mean": 57.83527199632782,
+        "std": 10.20448222890397,
+        "median": 57.41246990021459
+      }
+    }
+  },
+  "hypothesis_tests": {
+    "age": {
+      "test": "Mann-Whitney U",
+      "statistic": 66403.5,
+      "p_value": 0.5932639414152552,
+      "significant": false
+    },
+    "temperature": {
+      "test": "Mann-Whitney U",
+      "statistic": 1220.0,
+      "p_value": 5.829336588443824e-92,
+      "significant": true
+    },
+    "spo2": {
+      "test": "Mann-Whitney U",
+      "statistic": 133773.0,
+      "p_value": 8.163128876118571e-89,
+      "significant": true
+    },
+    "heart_rate": {
+      "test": "Mann-Whitney U",
+      "statistic": 2398.5,
+      "p_value": 9.937071396290226e-89,
+      "significant": true
+    },
+    "brightness": {
+      "test": "Mann-Whitney U",
+      "statistic": 65562.0,
+      "p_value": 0.42990224697665247,
+      "significant": false
+    },
+    "contrast": {
+      "test": "Mann-Whitney U",
+      "statistic": 78851.0,
+      "p_value": 0.001175032458699188,
+      "significant": true
+    },
+    "gender": {
+      "test": "Chi-Square Independence",
+      "statistic": 1.2277162739969312,
+      "p_value": 0.2678516285346507,
+      "significant": false,
+      "contingency_table": {
+        "0": {
+          "F": 88,
+          "M": 87
+        },
+        "1": {
+          "F": 353,
+          "M": 426
+        }
+      }
+    },
+    "cough_severity": {
+      "test": "Chi-Square Independence",
+      "statistic": 468.4402212876067,
+      "p_value": 3.2937429565935956e-101,
+      "significant": true,
+      "contingency_table": {
+        "0": {
+          "Absent": 119,
+          "Mild": 45,
+          "Moderate": 11,
+          "Severe": 0
+        },
+        "1": {
+          "Absent": 37,
+          "Mild": 137,
+          "Moderate": 319,
+          "Severe": 286
+        }
+      }
+    }
+  }
+}

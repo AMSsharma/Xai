@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+node_modules/
+backend/clinical_audit.db
+.gemini/
+.agents/
+.idea/
+.vscode/
+frontend/node_modules/
+frontend/dist-ssr/
+frontend/*.local
+*.log
+*.parquet

@@ -1,0 +1,4 @@
+Comparison,Metric,Point Estimate Diff,Lower 95% CI,Upper 95% CI,p-value,Statistical Significance
+Multimodal vs Image-only,auroc,-0.0010795340266634601,-0.0226482097152071,0.018589351911720425,0.971,No
+Multimodal vs Image-only,ece,-0.011555878391087186,-0.03406497099749222,0.010934328515756072,0.267,No
+Multimodal vs Image-only,brier_score,-0.008268040125631166,-0.02491791678974874,0.00859812235126564,0.32,No

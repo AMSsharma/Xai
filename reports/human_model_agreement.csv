@@ -1,0 +1,9 @@
+Metric Name,Count,Percentage / Rate,Details
+Total Audited Cases,100,1.0,All cases logged in clinical_audit.db
+Implicit Agreements,66,0.66,Model predictions accepted by clinician
+Clinician Overrides (Disagreements),34,0.34,Model predictions changed by clinician
+False Positive Overrides,30,0.8823529411764706,"Model predicted positive, clinician corrected to negative"
+False Negative Overrides,4,0.11764705882352941,"Model predicted negative, clinician corrected to positive"
+OOD-related Overrides,7,0.7777777777777778,Overrides out of all OOD cases
+High-Uncertainty Overrides,21,0.7,Overrides out of all high uncertainty cases
+Borderline Cases Overrides (0.10-0.40),8,0.38095238095238093,Overrides out of all borderline cases

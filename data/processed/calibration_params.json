@@ -1,0 +1,8 @@
+{
+  "temperature": 1.5951428743306295,
+  "optimal_threshold": 0.17,
+  "cost_matrix": {
+    "fn_cost": 10.0,
+    "fp_cost": 1.0
+  }
+}
